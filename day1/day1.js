@@ -4,7 +4,7 @@ const util = require("util");
 const readFile = util.promisify(fs.readFile);
 
 function readInput() {
-  return readFile("day_1_input", "binary");
+  return readFile("day1_input", "binary");
 }
 
 function reverseStr(str) {
